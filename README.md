@@ -1,2 +1,3 @@
-# docs
-Documentation for all Lavra projects are held here.
+# Docs
+
+This is the public documentation repository for Lavra products.
