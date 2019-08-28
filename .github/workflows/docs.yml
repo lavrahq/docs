@@ -17,4 +17,7 @@ jobs:
         BRANCH: gh-pages
         FOLDER: docs/.vuepress/dist
         CNAME: docs.lavra.io
-        BUILD_SCRIPT: yarn global add vuepress && yarn run build
+        BUILD_SCRIPT: |
+          yarn install && \
+          yarn global add vuepress && \
+          yarn run build
